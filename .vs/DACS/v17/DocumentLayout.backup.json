@@ -1,65 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\",
+  "WorkspaceRootPath": "E:\\DACS_DacSanQueHuong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\models\\dbdacsanquehuongcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\models\\dbdacsanquehuongcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\admin\\controllers\\dacsanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\controllers\\dacsanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\customer\\controllers\\chitietsanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\customer\\controllers\\chitietsanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\customer\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\customer\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\admin\\views\\dacsans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\dacsans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\admin\\views\\dacsans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\admin\\views\\dacsans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\dacsans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\admin\\views\\dacsans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\dacsans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\admin\\views\\dacsans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\dacsans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\admin\\views\\loai\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\loai\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\admin\\views\\loai\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\loai\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\models\\dacsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\models\\dacsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\models\\dacsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\admin\\controllers\\dacsanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\controllers\\dacsanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\customer\\controllers\\chitietsanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\customer\\controllers\\chitietsanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\customer\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\customer\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\admin\\views\\dacsans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\dacsans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\admin\\views\\dacsans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\dacsans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\admin\\views\\dacsans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\dacsans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\admin\\views\\loai\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\loai\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\admin\\views\\loai\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\admin\\views\\loai\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|d:\\cong nghe thong tin\\do  an co so\\tailieubaocaodoan\\dacs\\dacs\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|e:\\dacs_dacsanquehuong\\dacs\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C211B2B1-0E80-4327-9E76-A25FEED92B08}|DACS\\DACS.csproj|solutionrelative:dacs\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -70,16 +82,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -89,77 +93,99 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DonHangController.cs",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Controllers\\DonHangController.cs",
-              "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Controllers\\DonHangController.cs",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Controllers\\DonHangController.cs",
-              "RelativeToolTip": "DACS\\Areas\\Admin\\Controllers\\DonHangController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Title": "DbDacSanQueHuongContext.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Models\\DbDacSanQueHuongContext.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\DbDacSanQueHuongContext.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Models\\DbDacSanQueHuongContext.cs",
+              "RelativeToolTip": "DACS\\Models\\DbDacSanQueHuongContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA5wB8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:48:39.096Z",
+              "WhenOpened": "2025-03-29T05:47:32.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\appsettings.json",
+              "RelativeDocumentMoniker": "DACS\\appsettings.json",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\appsettings.json",
+              "RelativeToolTip": "DACS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-29T05:46:51.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChiTietSanPhamController.cs",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Customer\\Controllers\\ChiTietSanPhamController.cs",
-              "RelativeDocumentMoniker": "DACS\\Areas\\Customer\\Controllers\\ChiTietSanPhamController.cs",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Customer\\Controllers\\ChiTietSanPhamController.cs",
-              "RelativeToolTip": "DACS\\Areas\\Customer\\Controllers\\ChiTietSanPhamController.cs",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Program.cs",
+              "RelativeDocumentMoniker": "DACS\\Program.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Program.cs",
+              "RelativeToolTip": "DACS\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:48:31.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Customer\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "DACS\\Areas\\Customer\\Controllers\\ShoppingCartController.cs",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Customer\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "DACS\\Areas\\Customer\\Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:48:26.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DonHang.cs",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Models\\DonHang.cs",
-              "RelativeDocumentMoniker": "DACS\\Models\\DonHang.cs",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Models\\DonHang.cs",
-              "RelativeToolTip": "DACS\\Models\\DonHang.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:47:55.072Z",
+              "WhenOpened": "2025-03-29T05:46:45.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\DacSans\\Details.cshtml",
-              "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Views\\DacSans\\Details.cshtml",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\DacSans\\Details.cshtml",
-              "RelativeToolTip": "DACS\\Areas\\Admin\\Views\\DacSans\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T15:43:45.662Z",
-              "EditorCaption": ""
+              "Title": "DonHangController.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Controllers\\DonHangController.cs",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Controllers\\DonHangController.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Controllers\\DonHangController.cs",
+              "RelativeToolTip": "DACS\\Areas\\Admin\\Controllers\\DonHangController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:48:39.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Models\\DonHang.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\DonHang.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Models\\DonHang.cs",
+              "RelativeToolTip": "DACS\\Models\\DonHang.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:47:55.072Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\DacSans\\Details.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Views\\DacSans\\Details.cshtml",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\DacSans\\Details.cshtml",
+              "RelativeToolTip": "DACS\\Areas\\Admin\\Views\\DacSans\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:43:45.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\Loai\\Edit.cshtml",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\Loai\\Edit.cshtml",
               "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Views\\Loai\\Edit.cshtml",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\Loai\\Edit.cshtml",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\Loai\\Edit.cshtml",
               "RelativeToolTip": "DACS\\Areas\\Admin\\Views\\Loai\\Edit.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAgwBkAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -167,11 +193,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\Loai\\Create.cshtml",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\Loai\\Create.cshtml",
               "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Views\\Loai\\Create.cshtml",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\Loai\\Create.cshtml",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\Loai\\Create.cshtml",
               "RelativeToolTip": "DACS\\Areas\\Admin\\Views\\Loai\\Create.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAQwA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -179,24 +205,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DacSansController.cs",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Controllers\\DacSansController.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Controllers\\DacSansController.cs",
               "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Controllers\\DacSansController.cs",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Controllers\\DacSansController.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Controllers\\DacSansController.cs",
               "RelativeToolTip": "DACS\\Areas\\Admin\\Controllers\\DacSansController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T14:47:56.149Z",
+              "WhenOpened": "2024-06-13T14:47:56.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DacSan.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Models\\DacSan.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\DacSan.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Models\\DacSan.cs",
+              "RelativeToolTip": "DACS\\Models\\DacSan.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:48:02.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
+              "RelativeToolTip": "DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:43:29.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Customer\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Customer\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Customer\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "DACS\\Areas\\Customer\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:48:26.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChiTietSanPhamController.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Customer\\Controllers\\ChiTietSanPhamController.cs",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Customer\\Controllers\\ChiTietSanPhamController.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Customer\\Controllers\\ChiTietSanPhamController.cs",
+              "RelativeToolTip": "DACS\\Areas\\Customer\\Controllers\\ChiTietSanPhamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:48:31.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\DacSans\\Edit.cshtml",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\DacSans\\Edit.cshtml",
               "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Views\\DacSans\\Edit.cshtml",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\DacSans\\Edit.cshtml",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\DacSans\\Edit.cshtml",
               "RelativeToolTip": "DACS\\Areas\\Admin\\Views\\DacSans\\Edit.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAowCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -204,11 +278,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DACS\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DACS\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAKAAAAAAAAAAAAAuwLcAAAB8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -216,11 +290,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\DacSans\\Create.cshtml",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\DacSans\\Create.cshtml",
               "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Views\\DacSans\\Create.cshtml",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\DacSans\\Create.cshtml",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Admin\\Views\\DacSans\\Create.cshtml",
               "RelativeToolTip": "DACS\\Areas\\Admin\\Views\\DacSans\\Create.cshtml",
               "ViewState": "AQIAABAAAAAAAAAAAAAIwCcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -228,48 +302,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DacSan.cs",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Models\\DacSan.cs",
-              "RelativeDocumentMoniker": "DACS\\Models\\DacSan.cs",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Models\\DacSan.cs",
-              "RelativeToolTip": "DACS\\Models\\DacSan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T14:48:02.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Customer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DACS\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Customer\\Controllers\\HomeController.cs",
               "RelativeToolTip": "DACS\\Areas\\Customer\\Controllers\\HomeController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwDUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T14:45:16.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T14:45:16.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
-              "RelativeDocumentMoniker": "DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
-              "RelativeToolTip": "DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAmwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T15:43:29.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Customer\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DACS\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\CONG NGHE THONG TIN\\Do  An Co So\\TaiLieuBaoCaoDoAn\\DACS\\DACS\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\DACS_DacSanQueHuong\\DACS\\Areas\\Customer\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DACS\\Areas\\Customer\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

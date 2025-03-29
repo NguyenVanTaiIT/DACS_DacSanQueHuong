@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DACS"
+    "\\DACS",
+    "\\DACS\\Areas",
+    "\\DACS\\Areas\\Admin",
+    "\\DACS\\Areas\\Admin\\Views",
+    "\\DACS\\Areas\\Admin\\Views\\DacSans"
   ],
-  "SelectedNode": "\\DACS",
+  "SelectedNode": "\\DACS\\Areas\\Admin\\Views\\DacSans\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

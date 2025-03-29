@@ -29,7 +29,7 @@ public partial class DbDacSanQueHuongContext : IdentityDbContext
 
     public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=ADMIN-PC\\CHIANH;Database=DB_DacSanQueHuong;Trusted_Connection=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=LAPTOP-FDR7M9C3\\SQLSAO;Database=DB_DacSanQueHuong;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
