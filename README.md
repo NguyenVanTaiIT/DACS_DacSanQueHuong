@@ -1,7 +1,9 @@
 # E-commerce Website for Local Specialties (ASP.NET Core MVC)
-![image](https://github.com/user-attachments/assets/715880b8-8330-4800-8060-824a6586d3e7)
-![image](https://github.com/user-attachments/assets/3e206af1-558a-4599-874f-b0a0093e1740)
-![image](https://github.com/user-attachments/assets/47f1910c-237b-4f14-bbf2-9cee73ccc608)
+![Screenshot 2025-03-29 124823](https://github.com/user-attachments/assets/843a22d7-27ca-4e4e-ba67-0b9d60458611)
+![Screenshot 2025-03-29 124848](https://github.com/user-attachments/assets/46b21489-611e-4b43-9b6f-b744f8478f7b)
+![Screenshot 2025-03-29 124900](https://github.com/user-attachments/assets/68105cf0-325f-4294-bcbe-519d18c63487)
+![Screenshot 2025-03-29 125640](https://github.com/user-attachments/assets/c6bc26b2-cf5c-41f1-a69d-d388eba33eab)
+
 
 ## Technologies Used
 - **ASP.NET Core MVC**
