@@ -1,0 +1,43 @@
+﻿@model IEnumerable<CtdonHang>
+@{
+	ViewData["Title"] = "CT đơn hàng";
+	Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<div class="container">
+	<h1>Mã Đơn Hàng: @ViewBag.MaHoaDon</h1>
+	<h2>Tên Khách Hàng: @ViewBag.TenKH</h2>
+	<h2>Tổng Tiền: @ViewBag.TongTien</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Tên Đặc Sản</th>
+				<th>Số Lượng</th>
+				<th>Giá Thành</th>
+				<th>Tổng tiền</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			@foreach (var item in @Model)
+			{
+				<tr>
+					<td>@item.MaDacSanNavigation.TenDacSan </td>
+					<td>@item.SldacSan</td>
+					<td>@item.MaDacSanNavigation.Gia</td>
+					<td>@item.GiaDacSan </td>
+				</tr>
+			}
+
+		</tbody>
+
+
+
+	</table>
+
+
+	<div>
+		<a asp-action="Index">Quay trở lại</a>
+	</div>
+</div>
+

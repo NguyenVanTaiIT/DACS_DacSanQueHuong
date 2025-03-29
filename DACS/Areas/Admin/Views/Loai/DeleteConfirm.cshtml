@@ -1,0 +1,40 @@
+﻿@model LoaiDacSan
+@{
+	ViewData["Title"] = "Xoá loại";
+	Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+<div class="container">
+	<h3>XOÁ LOẠI</h3>
+	<form method="post" asp-action="Delete">
+		<input name="id" asp-for="MaLoai" type="hidden" />
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<div class="form-group">
+			<label asp-for="TenLoai">Tên thể loại:</label>
+			<input asp-for="TenLoai" type="text" class="form-control" />
+			<span asp-validation-for="TenLoai" class="text-danger"></span>
+		</div>
+		<br />
+		<div class="form-group">
+			<img src="@Model.AnhLoai" style="width:250px;height:250px" />
+		</div>
+		<br />
+		<div class="form-group">
+			<label asp-for="MoTaLoai">Mô tả loại:</label>
+			<input asp-for="MoTaLoai" type="text" class="form-control" />
+			<span asp-validation-for="MoTaLoai" class="text-danger"></span>
+		</div>
+
+
+		<button type="submit" class="btn btn-primary">Xóa</button>
+		<a asp-action="Index" class="btn btn-secondary">Hủy</a>
+
+	</form>
+
+	<div>
+		<a asp-action="Index">Quay trở lại</a>
+	</div>
+
+</div>
+
+
+

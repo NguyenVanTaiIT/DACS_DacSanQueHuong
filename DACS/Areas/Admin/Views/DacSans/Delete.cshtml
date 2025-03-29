@@ -1,0 +1,76 @@
+﻿@model DACS.Models.DacSan
+
+@{
+    ViewData["Title"] = "Xoá";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h1>XOÁ ĐẶC SẢN</h1>
+
+<h3>Bạn có chắc là muốn xoá sản phẩm này ?</h3>
+<div>
+    <h4>Đặc Sản</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Tên đặc sản:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenDacSan)
+        </dd>
+        <dt class = "col-sm-2">
+            Mô tả đặc sản:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MoTaDacSan)
+        </dd>
+        <dt class = "col-sm-2">
+            Ảnh 1:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Anh1)
+        </dd>
+        <dt class = "col-sm-2">
+            Ảnh 2:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Anh2)
+        </dd>
+        <dt class = "col-sm-2">
+            Ảnh 3:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Anh3)
+        </dd>
+        <dt class = "col-sm-2">
+            Giá:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gia)
+        </dd>
+        <dt class = "col-sm-2">
+            Kho:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Kho)
+        </dd>
+        <dt class = "col-sm-2">
+            Quê hương:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.QueHuong)
+        </dd>
+        <dt class = "col-sm-2">
+            Loại đặc sản:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaLoaiNavigation.TenLoai)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="MaDacSan" />
+        <input type="submit" value="Xoá đặc sản" class="btn btn-danger" /> |
+        <a asp-action="Index">Quay trở lại</a>
+    </form>
+</div>

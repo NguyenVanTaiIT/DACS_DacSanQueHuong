@@ -1,0 +1,74 @@
+﻿@model CartViewModel
+@{
+    ViewData["Title"] = "Đặt hàng";
+
+}
+
+<form method="post" asp-action="Order">
+<div style="height:20px"></div>
+<h1 style="text-align:center;font-weight:bold; color:forestgreen">
+    Thanh Toán Đơn Hàng
+</h1>
+<div style="height:20px"></div>
+<div class="row">
+    <div style="padding-left:30px" class="col-4">
+        <h3>Thông Tin Khách Hàng</h3>
+        <p><b >Tên khách hàng:</b></p>
+        <input asp-for="DonHang.TenKhachHang" class="form-control" type="text" />
+        <span asp-validation-for="DonHang.TenKhachHang" class="text-danger"></span>
+        <p><b >Số điện thoại:</b></p>
+        <input asp-for="DonHang.SoDienThoai" class="form-control" type="text" />
+        <span asp-validation-for="DonHang.SoDienThoai" class="text-danger"></span>
+        <p><b >Địa Chỉ:</b></p>
+        <input asp-for="DonHang.DiaChi" class="form-control" type="text" />
+        <span asp-validation-for="DonHang.DiaChi" class="text-danger"></span>
+    </div>
+    
+    <div class="col-6">
+        
+        <h3>Hóa Đơn Tạm Tính</h3>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Sản Phẩm</th>
+                    <th></th>
+                    <th>Số Lượng</th>
+                    <th>Giá</th>
+                    <th>Tổng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.ListCart)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td><img src="@item.Image" style="width:40px;height:40px" /></td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price</td>
+                        <td>@string.Format("{0:0,0}", item.Price * item.Quantity)</td>
+                    </tr>
+                }
+                
+                <tr style="font-weight:bold; color:limegreen; text-align:right">
+                    <td colspan="9" align="center"><p>Thành Tiền:&ensp;@String.Format("{0:0,0}", ViewBag.TongTien) VNĐ</p></td>
+                </tr>
+                <tr style="font-weight:bold; color:limegreen; text-align:right">
+                    <td colspan="9" align="center"><p>Phương thức thanh toán:</p></td>
+                </tr>
+                <tr style="font-weight:bold; color:orangered; text-align:right">
+                        <td colspan="9" align="center"><input type="submit" name="payment" value="Ship cod" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary" /></td>
+                </tr>
+                <tr style="font-weight:bold; color:darkcyan; text-align:right">
+                        <td colspan="9" align="center"><input type="submit" name="payment" value="VNPAY" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary" /></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    
+    <div class="col-2">
+
+    </div>
+
+</div>
+</form>

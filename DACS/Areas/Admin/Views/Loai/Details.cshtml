@@ -1,0 +1,17 @@
+﻿@model LoaiDacSan
+@{
+	ViewData["Title"] = "Chi tiết loại";
+	Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h1>CHI TIẾT LOẠI</h1>
+<div class="container">
+	<img src="@Model.AnhLoai" style="width:250px;height:250px" />
+	<h5>@Model.TenLoai</h5>
+	<p>Mô tả:</p>
+	<p>@Model.MoTaLoai</p>
+	<div>
+		<a asp-action="Index">Quay trở lại</a>
+	</div>
+</div>
+

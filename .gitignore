@@ -1,0 +1,47 @@
+# Binaries
+bin/
+obj/
+
+# Visual Studio Code settings
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated/
+
+# NuGet Packages
+*.nupkg
+packages/
+project.lock.json
+
+# Logs
+*.log
+
+# ASP.NET Core environment files
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+
+# Database
+*.mdf
+*.ldf
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Publish output
+publish/
+
+# Node.js dependencies
+node_modules/
+
+# Docker
+.dockerignore
+docker-compose.override.yml

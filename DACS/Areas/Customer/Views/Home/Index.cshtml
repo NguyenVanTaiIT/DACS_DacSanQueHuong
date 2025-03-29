@@ -1,0 +1,198 @@
+﻿@{
+	ViewData["Title"] = "Đặc Sản Quê Hương";
+
+}
+
+
+
+
+<style>
+
+
+	.dacsan-body {
+		font-family: Arial, sans-serif;
+		display: grid;
+		grid-template-columns: 20% 80%;
+		max-width: 1200px;
+		margin: 0 auto;
+		gap: 20px;
+	}
+
+	.side-bar {
+		grid-column: 1;
+		margin: 5px;
+		height: 800px;
+	}
+
+	.dacsan-main {
+		grid-column: 2;
+		margin: 5px;
+	}
+
+
+	.dacsan-list {
+		background-color: whitesmoke;
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		gap: 10px;
+	}
+
+	.dacsan-card {
+		background-color: white;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		padding: 10px;
+		width: 230px;
+		text-align: center;
+	}
+
+		.dacsan-card img {
+			max-width: 100%;
+			height: 150px;
+		}
+
+		#btnMua {
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: forestgreen;
+			color: white;
+		}
+
+
+
+	#dm {
+		width: 100%;
+		background: linear-gradient(to right,#66CD00,#228B22 );
+		color: white;
+		font-weight: bolder;
+	}
+
+	.dropdown-menu {
+		width: 230px;
+		display: block !important;
+	}
+
+
+	.carousel-item img {
+		width: 100%;
+		height: 500px;
+	}
+
+</style>
+
+
+
+
+
+
+
+<div class="dacsan-body">
+
+	<div class="side-bar">
+
+		<button id="dm" type="button" class="btn btn-sm dropdown-menu-start" data-bs-toggle="dropdown" aria-expanded="false">
+			&#8801;&ensp;&ensp;&ensp;DANH MỤC ĐẶC SẢN
+		</button>
+		<ul class="dropdown-menu">
+			<li><a class="dropdown-item" asp-action="Index">Tất cả đặc sản</a></li>
+			@foreach (var item in @ViewBag.LoaiDacSan)
+			{
+				<li>
+					<a asp-action="Index" asp-route-dm1="@item.TenLoai" class="dropdown-item">@item.TenLoai</a>
+				</li>
+			}
+		</ul>
+
+	</div>
+
+
+	<div class="dacsan-main">
+
+
+		<div class="row">
+
+			<div id="picslide" class="carousel slide" data-bs-ride="carousel">
+
+
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#picslide" data-bs-slide-to="0" class="active"></button>
+					<button type="button" data-bs-target="#picslide" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#picslide" data-bs-slide-to="2"></button>
+				</div>
+
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="~/image/Slide1.jpg" alt="anh1" class="d-block" style="width:100%">
+						<div class="carousel-caption">
+							<h3>Đặc Sản Sóc Trăng</h3>
+							<p>Lẩu mắm, bánh pía ...</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="~/image/Slide2.jpg" alt="anh2" class="d-block" style="width:100%">
+						<div class="carousel-caption">
+							<h3>Đặc Sản Sài Gòn</h3>
+							<p>Cháo gà, cháo đậu xanh</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="~/image/Slide3.jpg" alt="anh3" class="d-block" style="width:100%">
+						<div class="carousel-caption">
+							<h3>Đặc Sản Đồng Tháp</h3>
+							<p>Gỏi ngó sen</p>
+						</div>
+					</div>
+				</div>
+
+				<button class="carousel-control-prev" type="button" data-bs-target="#picslide" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#picslide" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+			</div>
+		</div>
+
+		<div class="row" style="height:30px"></div>
+		<div class="row dacsantitle" style="height:20px;color:green">
+			<div class="border border-success">
+				<h3>
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list-stars" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5" />
+						<path d="M2.242 2.194a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.28.28 0 0 0-.094.3l.173.569c.078.256-.213.462-.423.3l-.417-.324a.27.27 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.28.28 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.27.27 0 0 0 .259-.194zm0 4a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.28.28 0 0 0-.094.3l.173.569c.078.255-.213.462-.423.3l-.417-.324a.27.27 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.28.28 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.27.27 0 0 0 .259-.194zm0 4a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.28.28 0 0 0-.094.3l.173.569c.078.255-.213.462-.423.3l-.417-.324a.27.27 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.28.28 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.27.27 0 0 0 .259-.194z" />
+					</svg>
+					@ViewBag.TitleTK
+				</h3>
+			</div>
+		</div>
+		<div class="row" style="height:30px"></div>
+		<div class="row dacsan-list">
+
+			@foreach (var item in @ViewBag.DacSan)
+			{
+				<div class="card dacsan-card">
+					<a asp-area="Customer" asp-controller="ChiTietSanPham" asp-action="Details" asp-route-id="@item.MaDacSan" class="card-link">
+						<img class="card-img-top" src="@item.Anh1" alt="anhsp" />
+					</a>					
+					<div class="card-body">
+						<h5 class="card-title">@item.TenDacSan</h5>
+						<p class="card-text">@item.Gia đ</p>
+						<a id="btnMua"  asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@item.MaDacSan" class="btn">Thêm Vào Giỏ</a>
+					</div>
+
+				</div>
+			}
+
+		</div>
+
+	</div>
+
+
+
+</div>
+
+

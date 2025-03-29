@@ -1,0 +1,54 @@
+﻿@model IEnumerable<LoaiDacSan>
+@{
+    ViewData["Title"] = "Loại đặc sản";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h1>QUẢN LÝ LOẠI ĐẶC SẢN</h1>
+
+<a class="btn btn-primary" href="~/Admin/Loai/Create" class="button">Thêm loại đặc sản mới</a>
+<table class="table" id='tbloai'>
+    <thead>
+        <tr>
+            <th scope="col">Mã Loại</th>
+            <th scope="col">Tên Loại</th>
+            <th scope="col">Ảnh Loại</th>
+            <th scope="col">Mô Tả Loại</th>
+            <th scope="col">Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.MaLoai</td>
+                <td>@item.TenLoai</td>
+                <td><img src="@item.AnhLoai" alt="anhloai" style="width:60px";height="60px" /></td>
+                <td>@item.MoTaLoai</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.MaLoai">Chi tiết</a>
+                    ||
+                    <a asp-action="DeleteConfirm" asp-route-id="@item.MaLoai">Xoá</a>
+                    ||
+                    <a asp-action="Edit" asp-route-id="@item.MaLoai">Sửa</a>                  
+                </td>
+            </tr>
+        }
+       
+
+    </tbody>
+</table>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<link href="~/DataTables/datatables.min.css" rel="stylesheet">
+
+<script src="~/DataTables/datatables.min.js"></script>
+
+
+<script type="text/javascript">
+
+    var js = jQuery.noConflict(true);
+    js(document).ready(function(){
+        js('#tbloai').DataTable();
+    });
+
+</script>

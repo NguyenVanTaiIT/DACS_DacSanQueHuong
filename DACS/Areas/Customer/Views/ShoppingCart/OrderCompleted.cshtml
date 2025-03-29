@@ -1,0 +1,14 @@
+﻿@model DonHang
+@{
+	ViewData["Title"] = "Đặt hàng";
+
+}
+
+<div style="padding-top:50px;text-align:center">
+	<h2>ĐẶT HÀNG THÀNH CÔNG</h2>
+	<p>Đơn đặt hàng: @Model.MaDonHang đã được đặt hàng</p>
+	<div>
+		<a asp-action="Index" asp-controller="Home" style="text-decoration:none;color:green">Về trang chủ</a>
+	</div>
+</div>
+

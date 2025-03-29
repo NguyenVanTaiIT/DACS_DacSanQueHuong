@@ -1,0 +1,56 @@
+﻿@model DonHang
+@{
+	ViewData["Title"] = "Sửa đơn hàng";
+	Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<div class="container">
+	<form method="post">
+	<input asp-for="MaDonHang" value="@Model.MaDonHang" type="hidden" class="form-control" />
+	<input asp-for="UserId" type="hidden" value="@Model.UserId" class="form-control" />
+	<input asp-for="SoDonHang" value="@Model.SoDonHang" type="hidden" class="form-control" />
+	<input asp-for="NgayNhanDon" value="@Model.NgayNhanDon" type="hidden" class="form-control" />
+	<input asp-for="TongDonHang" value="@Model.TongDonHang" type="hidden" class="form-control" />
+	<input asp-for="SoDienThoai" value="@Model.SoDienThoai" type="hidden" class="form-control" />
+	<input asp-for="DiaChi" value="@Model.DiaChi" type="hidden" class="form-control" />
+	<input asp-for="TenKhachHang" value="@Model.TenKhachHang" type="hidden" class="form-control" />
+	<input asp-for="NgayGiao" value="@Model.NgayGiao" type="hidden" class="form-control" />
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Mã Đơn Hàng</th>
+				<th>Tên Khách Hàng</th>
+				<th>Số Điện Thoại</th>
+				<th>Địa Chỉ</th>
+				<th>Trạng Thái</th>
+				<th>Tổng Tiền</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>@Model.MaDonHang</td>
+				<td>@Model.TenKhachHang</td>
+				<td>@Model.SoDienThoai</td>
+				<td>@Model.DiaChi</td>
+				<td>
+					<input asp-for="TinhTrangThanhToan" class="form-control" />
+				</td>
+				<td>@Model.TongDonHang</td>
+			</tr>
+
+		</tbody>
+
+
+
+
+	</table>
+	<br />
+	<button type="submit" class="btn btn-primary">Cập nhật tình trạng thanh toán</button>
+	</form>
+	<br />
+	<div>
+		<a asp-action="Index">Quay trở lại</a>
+	</div>
+</div>
+

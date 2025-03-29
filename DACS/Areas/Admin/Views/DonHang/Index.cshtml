@@ -1,0 +1,63 @@
+﻿@model  IEnumerable<DonHang>
+@{
+	ViewData["Title"] = "Đơn hàng";
+	Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+<h1>QUẢN LÝ ĐƠN HÀNG</h1>
+<div>
+
+	<table class="table" id='tbdonhang'>
+		<thead>
+			<tr>
+				<th>Mã Đơn Hàng</th>
+				<th>Ngày nhận đơn</th>
+				<th>Tên Khách Hàng</th>
+				<th>Số Điện Thoại</th>
+				<th>Địa Chỉ</th>
+				<th>Trạng Thái</th>
+				<th>Tổng Tiền</th>
+				<th>Chức Năng</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@item.MaDonHang</td>
+					<td>@item.NgayNhanDon</td>
+					<td>@item.TenKhachHang</td>
+					<td>@item.SoDienThoai</td>
+					<td>@item.DiaChi</td>
+					<td>@item.TinhTrangThanhToan</td>
+					<td>@item.TongDonHang</td>
+					<td>
+						<a asp-action="Detail" asp-route-iddh="@item.SoDonHang">Chi tiết đơn hàng</a>
+						<br />
+						<a asp-action="EditStatus" asp-route-iddh="@item.SoDonHang">Sửa tình trạng thanh toán</a>
+					</td>
+				</tr>
+			}
+
+		</tbody>
+
+
+
+	</table>
+
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<link href="~/DataTables/datatables.min.css" rel="stylesheet">
+
+<script src="~/DataTables/datatables.min.js"></script>
+
+
+<script type="text/javascript">
+
+	var js = jQuery.noConflict(true);
+	js(document).ready(function () {
+		js('#tbdonhang').DataTable();
+	});
+
+</script>

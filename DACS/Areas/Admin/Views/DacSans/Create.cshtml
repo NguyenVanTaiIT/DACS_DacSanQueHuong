@@ -1,0 +1,134 @@
+﻿@model DACS.Models.DacSan
+
+@{
+    ViewData["Title"] = "Tạo mới";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h1>TẠO MỚI ĐẶC SẢN</h1>
+
+<h4>ĐẶC SẢN</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TenDacSan" class="control-label">Tên đặc sản:</label>
+                <input asp-for="TenDacSan" class="form-control" />
+                <span asp-validation-for="TenDacSan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MoTaDacSan" class="control-label">Mô tả đặc sản:</label>
+                <input asp-for="MoTaDacSan" class="form-control" />
+                <span asp-validation-for="MoTaDacSan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Anh1" class="control-label">Ảnh 1:</label>
+                <input id="imageInput1" type="file" asp-for="Anh1" class="form-control" accept="image/jpeg,image/jpg,image/png" />
+                <span asp-validation-for="Anh1" class="text-danger"></span>
+                <br />
+                <img id="previewImage1" style="width:100px;height:100px;display: none" alt="anh xem truoc" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Anh2" class="control-label">Ảnh 2:</label>
+                <input id="imageInput2" type="file" asp-for="Anh2" class="form-control" accept="image/jpeg,image/jpg,image/png" />
+                <span asp-validation-for="Anh2" class="text-danger"></span>
+                <br />
+                <img id="previewImage2" style="width:100px;height:100px;display: none" alt="anh xem truoc" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Anh3" class="control-label">Ảnh 3:</label>
+                <input id="imageInput3" type="file" asp-for="Anh3" class="form-control" accept="image/jpeg,image/jpg,image/png" />
+                <span asp-validation-for="Anh3" class="text-danger"></span>
+                <br />
+                <img id="previewImage3" style="width:100px;height:100px;display: none" alt="anh xem truoc" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Gia" class="control-label">Giá:</label>
+                <input asp-for="Gia" class="form-control" />
+                <span asp-validation-for="Gia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kho" class="control-label">Kho:</label>
+                <input asp-for="Kho" class="form-control" />
+                <span asp-validation-for="Kho" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaLoai" class="control-label">Loại đặc sản:</label>
+                <select asp-for="MaLoai" class ="form-control" asp-items="ViewBag.MaLoai"></select>
+                <span asp-validation-for="MaLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QueHuong" class="control-label">Quê Hương</label>
+                <input asp-for="QueHuong" class="form-control" />
+                <span asp-validation-for="QueHuong" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay trở lại</a>
+</div>
+
+
+
+<script>
+    document.getElementById('imageInput1').addEventListener('change', function (event) {
+        var output = document.getElementById('previewImage1');
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                output.src = e.target.result;
+                output.style.display = 'block';
+            };
+
+            reader.readAsDataURL(this.files[0]);
+        }
+
+    });
+
+
+</script>
+
+<script>
+    document.getElementById('imageInput2').addEventListener('change', function (event) {
+        var output = document.getElementById('previewImage2');
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                output.src = e.target.result;
+                output.style.display = 'block';
+            };
+
+            reader.readAsDataURL(this.files[0]);
+        }
+
+    });
+
+
+</script>
+
+
+<script>
+    document.getElementById('imageInput3').addEventListener('change', function (event) {
+        var output = document.getElementById('previewImage3');
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                output.src = e.target.result;
+                output.style.display = 'block';
+            };
+
+            reader.readAsDataURL(this.files[0]);
+        }
+
+    });
+
+
+</script>

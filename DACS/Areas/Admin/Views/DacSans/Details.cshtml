@@ -1,0 +1,72 @@
+﻿@model DACS.Models.DacSan
+
+@{
+    ViewData["Title"] = "Chi Tiết";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h1>Chi Tiết</h1>
+<div>
+    <h4>Đặc Sản</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Tên đặc sản:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenDacSan)
+        </dd>
+        <dt class = "col-sm-2">
+            Mô tả đặc sản:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MoTaDacSan)
+        </dd>
+        <dt class = "col-sm-2">
+            Ảnh 1:
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="@Html.DisplayFor(model => model.Anh1)" alt="anh1" style="width:100px;height:100px" />
+        </dd>
+        <dt class = "col-sm-2">
+            Ảnh 2:
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="@Html.DisplayFor(model => model.Anh2)" alt="anh2" style="width:100px;height:100px" />
+        </dd>
+        <dt class = "col-sm-2">
+            Ảnh 3:
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="@Html.DisplayFor(model => model.Anh3)" alt="anh3" style="width:100px;height:100px" />
+        </dd>
+        <dt class = "col-sm-2">
+            Giá:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gia)
+        </dd>
+        <dt class = "col-sm-2">
+            Kho:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Kho)
+        </dd>
+        <dt class = "col-sm-2">
+            Quê hương:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.QueHuong)
+        </dd>
+        <dt class = "col-sm-2">
+            Loại đặc sản:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaLoaiNavigation.TenLoai)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaDacSan">Sửa</a> |
+    <a asp-action="Index">Trở Lại Danh Sách</a>
+</div>

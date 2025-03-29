@@ -1,0 +1,124 @@
+﻿@model DACS.Models.DacSan
+
+@{
+    ViewData["Title"] = "Chi tiết";
+}
+
+
+
+<style>
+    #carouselExample {
+        background-color:white;
+        width: auto;
+        height:auto;
+    }
+
+    .TenDS{
+        font-size:40px;
+        font-weight:600;
+    }
+     .GiaDS{
+        font-size: 20px;
+     }
+
+     .QueHuongDS{
+        font-size: 20px;
+     }
+
+    .col-sm-2, .col-sm-10{
+        font-size: 20px;
+        display:inline;
+    }
+
+    .col-sm-2 p{
+        border-top: 2px solid black;
+        font-size:30px;
+    }
+
+    .cart{
+        margin-top:20%;
+        
+    }
+
+    .cart a{
+        display:flow;
+        border-radius:10px;
+        border: 1px solid black;
+        padding:5px;
+        width:28%;
+        height: 60px;
+        color:black;
+    }
+    .cart img{
+        width:50px;
+        height:50px;
+    }
+    .cart:hover a:hover{
+        background-color: #3e8e41;
+        color:white;
+    }
+    
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="@Html.DisplayFor(model => model.Anh1)" class="d-block w-100" style="width:100%;height:400px">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="@Html.DisplayFor(model => model.Anh2)" class="d-block w-100" style="width:100%;height:400px">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="@Html.DisplayFor(model => model.Anh3)" class="d-block w-100" style="width:100%;height:400px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+        
+
+        <div class="col-6">
+            <span class="TenDS">
+            @Html.DisplayFor(model => model.TenDacSan)
+            </span>
+
+            <br />
+            <span class="GiaDS">
+            <p>Giá: @Html.DisplayFor(model => model.Gia) đ</p>
+            </span>
+            <span class="QueHuongDS">
+            <p>Xuất sứ: @Html.DisplayFor(model => model.QueHuong)</p>
+            </span>
+            <div class="cart">
+                <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@Model.MaDacSan" style="text-decoration:none">
+                    Thêm Vào
+                    <img src="~/image/ThemVaoGioHang.png">
+                </a>
+            </div>
+        </div>
+        
+    </div>
+    <br />
+    <div class="col-sm-2">
+    <p>Mô tả đặc sản</p>
+    </div>
+    <div class="col-sm-10">
+    @Html.DisplayFor(model => model.MoTaDacSan)
+    </div>
+    <div style="height:300px">
+
+    </div>
+</div>
+<div>
+    <a asp-action="Details" asp-route-id="@Model?.MaDacSan"></a> 
+</div>

@@ -1,0 +1,82 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="~/image/admin.jpg"/>
+	<title>@ViewData["Title"]</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/DACS.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+	<style>
+		.col-3 {
+			height:1200px;
+			background-color: mediumspringgreen;
+			top:0;
+			position:sticky;
+
+		}
+
+		.TrangChu{
+			margin-left:32%;
+			margin-top:30px;
+		}
+	</style>
+
+	<div class="row">
+
+	<div class="col-3">
+		<h1 style="text-align:center">Chào mừng đến với trang quản lý</h1>
+		<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16" style="margin-left:35%">
+			<path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
+			<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+		</svg>
+		<br />
+		
+		<div class="btn-group" style="margin-left:32%;padding-top:20px">
+			<button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+				Quản lý
+			</button>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" asp-area="Admin" asp-controller="DacSans" asp-action="Index">Đặc sản</a></li>
+				<li><a class="dropdown-item" asp-area="Admin" asp-controller="Loai" asp-action="Index">Loại</a></li>
+				<li><a class="dropdown-item" asp-area="Admin" asp-controller="DonHang" asp-action="Index">Đơn hàng</a></li>
+			</ul>
+		</div>
+		<br />
+		<div class="TrangChu">
+				<form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+					<button id="logout" type="submit" class="btn btn-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" width="70" height="20" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+							<path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z" />
+						</svg>
+					</button>
+				</form>
+		</div>
+	</div>
+
+	<div class="col-9">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+		
+	</div>
+	<footer style="color:black; background-color:white; text-align:center; padding-top:100px">
+		<p>
+			Copyright 2024 ©TAIDZ Team
+		</p>
+		<br>
+		<p>NguyenVanTaiDZ@gmail.com</p>
+	</footer>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
